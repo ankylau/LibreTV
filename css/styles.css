@@ -66,6 +66,23 @@ LibreTV 全局样式
     background-size: cover, 100px 100px, 50px 50px, 75px 75px;
 }
 
+.page-bg:after {
+    content: '';
+    position: absolute;
+    width: 1930px;
+    height: 958px;
+    top: -300px;
+    left: 50%;
+    z-index:-1;
+    transform: translateX(-50%);
+    user-select: none;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: 238px center,right 160px center;
+    background-size: 732px auto,952px auto;
+    background-image: url(https://img.alicdn.com/imgextra/i4/O1CN01fpUJOF25dUvxBbnEi_!!6000000007549-2-tps-1464-1916.png),url(https://img.alicdn.com/imgextra/i4/O1CN01czMyyX21wxITEumGx_!!6000000007050-2-tps-1904-1916.png)
+}
+
 button, .card-hover {
     transition: all 0.3s ease;
 }
